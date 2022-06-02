@@ -1,0 +1,14 @@
+.CardModal {
+  text-align: center;
+  color: black;
+  background: linear-gradient(to top, yellow, 20%, lightskyblue);
+  border-radius: 10%;
+  border: orange solid 2px;
+  transition: 1s;
+  margin: 50px;
+
+  &:hover {
+    border-color: blueviolet;
+    transform: scale(1.2)
+  }
+}

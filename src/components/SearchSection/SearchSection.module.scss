@@ -1,0 +1,59 @@
+.SearchSection {
+   width: 100%;
+   margin: 157px 181px 57px 60px;
+
+  .SearchCard {
+    margin-right: 150px;
+    align-content: center;
+  }
+
+  .InputValue {
+    display: block;
+    overflow-wrap: break-word;
+    object-fit: contain;
+    margin: 0 auto;
+    color: #E6E6E6;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    background: #806BFF;
+    opacity: .9;
+
+    &:hover {
+      border-color: blueviolet;
+    }
+  }
+
+  .SearchAndButton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    & input {
+      width: 1000px;
+      height: 89px;
+      background-color: #E6E6E6;
+      font-size: 24px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      padding: 0 50px;
+
+    }
+
+    & button {
+      width: 199px;
+      height: 89px;
+      background-color: #E6E6E6;
+      font-size: 24px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      color: black;
+
+      &:hover {
+        color: yellow;
+      }
+    }
+  }
+}

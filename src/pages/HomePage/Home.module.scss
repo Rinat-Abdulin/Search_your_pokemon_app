@@ -1,0 +1,96 @@
+.PokemonHomePage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/f3/05/18/f30518ce513739658d977fa582f0bc44.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  position: relative;
+  overflow-x: hidden;
+
+  & h1 {
+    width: 620px;
+    height: 50px;
+    margin: 0 auto;
+    background: linear-gradient(to top, #806BFF, 20%, orange);
+    color: black;
+  }
+}
+
+.CardsList {
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+
+
+  & li {
+    padding: 5px;
+    margin: 0 120px 0 0;
+    border-radius: 20%;
+    transition: 1s;
+    padding-top: 50px;
+
+    &:hover {
+      border-color: blueviolet;
+      transform: scale(1.2)
+    }
+  }
+}
+
+
+.SearchSection {
+  width: 100%;
+  margin: 157px 181px 57px 60px;
+
+  .InputValue {
+    display: block;
+    overflow-wrap: break-word;
+    object-fit: contain;
+    margin: 0 auto;
+    color: #E6E6E6;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    background: #806BFF;
+    opacity: .9;
+
+    &:hover {
+      border-color: blueviolet;
+    }
+  }
+
+  .SearchAndButton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    & input {
+      width: 1000px;
+      height: 89px;
+      background-color: #E6E6E6;
+      font-size: 24px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      padding: 0 50px;
+
+    }
+
+    & button {
+      width: 199px;
+      height: 89px;
+      background-color: #E6E6E6;
+      font-size: 24px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      &:hover {
+        color: yellow;
+      }
+    }
+  }
+}

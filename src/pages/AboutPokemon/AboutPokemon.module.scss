@@ -1,0 +1,28 @@
+.AboutPokemon {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://vgtimes.ru/uploads/posts/2016-07/1469636853_3.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  overflow-x: hidden;
+}
+
+.DescriptionCards {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  & img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.AboutPokemonCards {
+  padding: 10px;
+  flex-wrap: wrap;
+  font-weight: bold;
+}

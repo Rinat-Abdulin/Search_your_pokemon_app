@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  width: 100%;
+  height: 134px;
+  background:  #806BFF;
+  color: darkslateblue;
+  opacity: .9;
+
+  .Navigation {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+
+    & p {
+      padding: 50px 0 0 90px;
+      color: yellow;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    & p:hover {
+      color: orange;
+    }
+  }
+
+  & img {
+    padding: 16px 0 0 30px
+  }
+}

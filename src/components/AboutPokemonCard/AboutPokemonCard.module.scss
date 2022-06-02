@@ -1,0 +1,29 @@
+.AboutPokemonCard {
+  width: 340px;
+  height: 340px;
+  text-align: center;
+  color: black;
+  background: linear-gradient(to top, yellow, 50%, lightskyblue);
+  opacity: .9;
+  border-radius: 20%;
+  border: orange solid 2px;
+  transition: 1s;
+  margin: 50px;
+
+  &:hover {
+    border-color: blueviolet;
+    transform: scale(1.2)
+  }
+
+  & button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid orange;
+    background: #806BFF;
+    border-radius: 10px 5%;
+
+    &:hover {
+      background: orange;
+    }
+  }
+}

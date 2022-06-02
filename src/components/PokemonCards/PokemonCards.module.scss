@@ -1,0 +1,30 @@
+.PokemonCards {
+  width: 200px;
+  height: 200px;
+  border: 2px solid yellow;
+  text-align: center;
+  background: #806BFF;
+  background: linear-gradient(to top, yellow, 20%, #806BFF);
+  margin: 0 auto;
+  opacity: .9;
+  padding: 20px;
+  border-radius: 10px;
+
+  &:hover {
+    border-color: blueviolet;
+    padding-top: 10px;
+  }
+
+  .PokemonImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  & p {
+    font-weight: bold;
+  }
+}
+
+.SearchCard {
+  color: red;
+}
